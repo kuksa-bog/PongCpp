@@ -6,7 +6,7 @@ void        Bot::SearchPlaceHard(Ball& ball, int dt) {
     s_y = ball.getSpeed().y;
     p_x = ball.getPosition().x;
     p_y = ball.getPosition().y;
-    while (p_x < getPosition().x) {
+    while (p_x <= getPosition().x - ball.getWidth() / 2) {
         if  (p_y <= 0) {
             s_y = -s_y;
             p_y = 0;

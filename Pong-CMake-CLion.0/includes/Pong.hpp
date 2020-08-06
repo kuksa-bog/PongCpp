@@ -67,7 +67,7 @@ struct PongInit {
 
     int             ScoreMax = 10;
     int             RacketSpeed = 3;
-    int             MaxBallSpeed_x = 5;
+    int             MaxBallSpeed_x = 3;
     int             MaxBallSpeed_y = 2;
 };
 

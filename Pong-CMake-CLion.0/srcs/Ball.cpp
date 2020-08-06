@@ -18,12 +18,12 @@ bool        Ball::UpdateSpeed(Vect& posr1, Vect& posr2, Vect& spdr1, Vect& spdr2
 bool        Ball::ifTouchWall() {
     bool b = false;
     if (getPosition().x <= 0) {
-        getPosition().x = WINDOW_WIDTH * 5 / 2;
+        getPosition().x = WINDOW_WIDTH * 5 / 2 - getWidth() / 2;
         getSpeed().x = -getSpeed().x;
         setScoreSecond(getScoreSecond() + 1);
         b =  true ;
     } else if (getPosition().x + getWidth() >= WINDOW_WIDTH * 5) {
-        getPosition().x = WINDOW_WIDTH * 5 / 2;
+        getPosition().x = WINDOW_WIDTH * 5 / 2 - getWidth() / 2;
         getSpeed().x = -getSpeed().x;
         setScoreFirst(getScoreFirst() + 1);
     }
@@ -44,14 +44,14 @@ bool        Ball::ifTouchRacket(Vect &posr1, Vect &posr2, Vect& spdr1, Vect& spd
     int     i = 0;
     if (getPosition().x <= posr1.x + RACKET_WIDTH - getWidth() / 2 // (
         && ((getPosition().y <= posr1.y + RACKET_HEIGHT)
-        && (getPosition().y + getHeight() >= posr1.y))) {          // )
+        && (getPosition().y >= posr1.y - getHeight()))) {          // )
         i = 1;
         getSpeed().x = -getSpeed().x;
         getPosition().x = posr1.x + RACKET_WIDTH;
         Mix_PlayChannel(-1, racketHitSound, 0);
     } else if ((getPosition().x >= posr2.x - getWidth() / 2)           // (
         && ((getPosition().y <= posr2.y + RACKET_HEIGHT)
-        && (getPosition().y + getHeight() >= posr2.y))) {
+            && (getPosition().y >= posr2.y - getHeight()))) {
         i = 2;
         getSpeed().x = -getSpeed().x;
         getPosition().x = posr2.x - getWidth();
@@ -104,9 +104,6 @@ bool        Ball::ifTouchRacket(Vect &posr1, Vect &posr2, Vect& spdr1, Vect& spd
                 getSpeed().y = (getSpeed().y + 2 >= pongInit.MaxBallSpeed_y) ? pongInit.MaxBallSpeed_y : getSpeed().y + 2;
         }
     }
-
-    if (i == 1)
-        return true ;
-    return false ;
+    return i == 1;
 
 }

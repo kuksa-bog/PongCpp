@@ -6,6 +6,7 @@ bool        Multiplayer::Running() {
         if (getBall().getScoreFirst() == getPongInit().ScoreMax
             || getBall().getScoreSecond() == getPongInit().ScoreMax) {
             if (LoadPlayMenu(45, false)) {
+                this->key[Key::KeyPous] = false;
                 this->key[Key::KeyEsc] = true;
                 while (this->key[Key::KeyEsc]) {
                     Events2(true);
@@ -19,6 +20,7 @@ bool        Multiplayer::Running() {
         Events();
         if (this->key[Key::KeyEsc]) {
             if (LoadPlayMenu(45, true)) {
+                this->key[Key::KeyPous] = false;
                 this->XContinue = true;
                 while (this->key[Key::KeyEsc]) {
                     Events2(true);
