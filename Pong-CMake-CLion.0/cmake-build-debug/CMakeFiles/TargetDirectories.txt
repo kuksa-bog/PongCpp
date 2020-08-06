@@ -1,0 +1,3 @@
+/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles/Pong-v.2.0.dir
