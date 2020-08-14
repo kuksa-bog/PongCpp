@@ -4,7 +4,7 @@
 CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o
  ../includes/Object.hpp
  ../includes/Pong.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Ball.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Ball.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -57,7 +57,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o
 CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o
  ../includes/Object.hpp
  ../includes/Pong.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Bot.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Bot.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -112,7 +112,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o
  ../includes/Play.hpp
  ../includes/Pong.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Multiplayer.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Multiplayer.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -165,7 +165,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o
 CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o
  ../includes/Object.hpp
  ../includes/Pong.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Object.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Object.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -221,7 +221,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o
  ../includes/Pong.hpp
  ../includes/PongMenu.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/PongMenu.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/PongMenu.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -274,7 +274,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o
 CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o
  ../includes/Object.hpp
  ../includes/Pong.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Racket.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Racket.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -329,7 +329,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o
  ../includes/Play.hpp
  ../includes/Pong.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Settings.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Settings.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -384,7 +384,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o
  ../includes/Play.hpp
  ../includes/Pong.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -437,7 +437,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o
 CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o
  ../includes/Object.hpp
  ../includes/Pong.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Text.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Text.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -492,7 +492,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o
  ../includes/Play.hpp
  ../includes/Pong.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Tutorial.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Tutorial.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -546,7 +546,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o
  ../includes/Object.hpp
  ../includes/Pong.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/View.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/View.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h
@@ -602,7 +602,7 @@ CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o
  ../includes/Pong.hpp
  ../includes/PongMenu.hpp
  ../includes/View.hpp
- /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/main.cpp
+ /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/main.cpp
  /usr/local/include/SDL2/SDL.h
  /usr/local/include/SDL2/SDL_assert.h
  /usr/local/include/SDL2/SDL_atomic.h

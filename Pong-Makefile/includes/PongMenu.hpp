@@ -5,7 +5,7 @@
 
 class PongMenu : public View {
 public:
-    PongMenu() { cout << "PongMenu created...." << endl; };
+    PongMenu() : InducedInscription(0) { cout << "PongMenu created...." << endl; };
     ~PongMenu() override { cout << "PongMenu destroyed...." << endl; };
 
     void            UpdateInscription(int ind, bool update);

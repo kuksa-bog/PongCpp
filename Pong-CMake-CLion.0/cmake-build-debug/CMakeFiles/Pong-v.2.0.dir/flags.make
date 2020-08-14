@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -Wall -pedantic -g -isysroot /Applications/Xcode.app/Con
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/includes -I/usr/local/include/SDL2 
+CXX_INCLUDES = -I/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/includes -I/usr/local/include/SDL2 
 

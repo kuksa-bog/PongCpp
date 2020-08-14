@@ -804,7 +804,7 @@ void               Settings::UpdatePongInit(int update, int toNumString, int& Po
     PongCase = update;
     ind = PongCase + toNumString;
     getObjectText()[ind].UpdateSet(getRenderer(), getStringText()[ind - 1], 35, 3);   // 1
-};
+}
 
 void                Settings::UpdatePongInitScore(int update, int toNumString, int& PongCase) {
     int ind = PongCase / 10 + toNumString;
@@ -812,7 +812,7 @@ void                Settings::UpdatePongInitScore(int update, int toNumString, i
     PongCase = update * 10;
     ind = PongCase / 10 + toNumString;
     getObjectText()[ind].UpdateSet(getRenderer(), getStringText()[ind - 1], 35, 3);   // 1
-};
+}
 
 void                Settings::UpdatePongInitBackground(int update, int& PongCase) {
     if (update == PongCase)
@@ -821,7 +821,7 @@ void                Settings::UpdatePongInitBackground(int update, int& PongCase
     PongCase = update;
     getBackground().CleanObject();
     getBackground().loadObject(getRenderer(), getPongInit().PathBackgrounds[PongCase - 1]);
-};
+}
 
 void                Settings::UpdateMouseMotion(int update) {
     if (this->InducedInscription == 55) {
@@ -838,5 +838,5 @@ void                Settings::UpdateMouseMotion(int update) {
     } else {
         UpdateInscription(this->InducedInscription, update);
     }
-};
+}
 

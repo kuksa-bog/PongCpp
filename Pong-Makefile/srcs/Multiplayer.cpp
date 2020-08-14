@@ -60,8 +60,8 @@ void            Multiplayer::Init() {
             this->FirstPlayer.Init(RACKET_HEIGHT, RACKET_WIDTH, Vect(15, WINDOW_HEIGHT * 3 / 2 - (RACKET_HEIGHT / 2)), Vect(0, 0));
             if (this->SecondPlayer.loadObject(getRenderer(), getPongInit().PathRightRacket[getPongInit().NumPathRightRacket - 1])) {
                 this->SecondPlayer.Init(RACKET_HEIGHT, RACKET_WIDTH, Vect(WINDOW_WIDTH * 5 - 15 - RACKET_WIDTH, WINDOW_HEIGHT * 3 / 2 - (RACKET_HEIGHT / 2)), Vect(0, 0));
-                if (this->Ball.loadObject(getRenderer(), getPongInit().PathBalls[getPongInit().NumPathBalls - 1])) {
-                    this->Ball.Init(30, 30, Vect(WINDOW_WIDTH * 5 / 2 - (30 / 2), WINDOW_HEIGHT * 3 / 2 - (30 / 2)), Vect(getPongInit().MaxBallSpeed_x, 0));
+                if (this->getBall().loadObject(getRenderer(), getPongInit().PathBalls[getPongInit().NumPathBalls - 1])) {
+                    this->getBall().Init(30, 30, Vect(WINDOW_WIDTH * 5 / 2 - (30 / 2), WINDOW_HEIGHT * 3 / 2 - (30 / 2)), Vect(getPongInit().MaxBallSpeed_x, 0));
                     if (!LoadAllText(45)) {
                         cout << "Error:Multiplayer::Init: load All Text" << SDL_GetError() << endl;
                         setIfRunning(false);
@@ -178,7 +178,7 @@ void            Multiplayer::Update() {
     }
     this->FirstPlayer.Update(this->dTime / 4);
     this->SecondPlayer.Update(this->dTime / 4);
-    this->Ball.Update(this->dTime / 4, this->FirstPlayer.getPosition(), this->SecondPlayer.getPosition(),
+    this->getBall().Update(this->dTime / 4, this->FirstPlayer.getPosition(), this->SecondPlayer.getPosition(),
             this->FirstPlayer.getSpeed(), this->SecondPlayer.getSpeed(), getPongInit());
     UpdateInscription(2, 45);
 }
@@ -263,6 +263,10 @@ void            Multiplayer::MouseButtonDown(int i) {
         getBall().Init(30, 30, Vect(WINDOW_WIDTH * 5 / 2 - (30 / 2), WINDOW_HEIGHT * 3 / 2 - (30 / 2)), Vect(getPongInit().MaxBallSpeed_x, 0));
         this->FirstPlayer.Init(RACKET_HEIGHT, RACKET_WIDTH, Vect(15, WINDOW_HEIGHT * 3 / 2 - (RACKET_HEIGHT / 2)), Vect(0, 0));
         this->SecondPlayer.Init(RACKET_HEIGHT, RACKET_WIDTH, Vect(WINDOW_WIDTH * 5 - 15 - RACKET_WIDTH, WINDOW_HEIGHT * 3 / 2 - (RACKET_HEIGHT / 2)), Vect(0, 0));
+        this->key[Key::Key1Up] = false;
+        this->key[Key::Key1Down] = false;
+        this->key[Key::Key2Up] = false;
+        this->key[Key::Key2Down] = false;
         this->key[Key::KeyEsc] = false;
     } else if (i == 3) {
         this->key[Key::KeyEsc] = false;
@@ -277,7 +281,7 @@ void            Multiplayer::Renderer() {
     getBackground().Draw(getRenderer());
     this->FirstPlayer.Draw(getRenderer());
     this->SecondPlayer.Draw(getRenderer());
-    this->Ball.Draw(getRenderer());
+    this->getBall().Draw(getRenderer());
     DrawAllText();
     SDL_RenderPresent(getRenderer());
     this->stopTime = std::chrono::high_resolution_clock::now();
@@ -290,9 +294,9 @@ bool            Multiplayer::LoadAllText(int size) {
         if (i == 1)
             getObjectText()[i].loadObjectTextPlay(getRenderer(), s, size);
         if (i == 2)
-            getObjectText()[i].loadObjectTextPlay(getRenderer(), this->Ball.getStringScoreFirst() + s, size);
+            getObjectText()[i].loadObjectTextPlay(getRenderer(), this->getBall().getStringScoreFirst() + s, size);
         if (i == 3)
-            getObjectText()[i].loadObjectTextPlay(getRenderer(), this->Ball.getStringScoreSecond() + s, size);
+            getObjectText()[i].loadObjectTextPlay(getRenderer(), this->getBall().getStringScoreSecond() + s, size);
         int iW, iH;
         SDL_QueryTexture(getObjectText()[i].getObject(), nullptr, nullptr, &iW, &iH);
         if (i == 1)
@@ -390,7 +394,7 @@ void            Multiplayer::UpdateInscription(int ind1, int size) {
     getObjectText()[ind1].CleanObject();
     getObjectText()[ind1 + 1].CleanObject();
     getObjectText()[ind1].loadObjectTextPlay(getRenderer(),
-                this->Ball.getStringScoreFirst() + getStringText()[ind1 - 1], size);
+                this->getBall().getStringScoreFirst() + getStringText()[ind1 - 1], size);
     getObjectText()[ind1 + 1].loadObjectTextPlay(getRenderer(),
-                this->Ball.getStringScoreSecond() + getStringText()[ind1], size);
+                this->getBall().getStringScoreSecond() + getStringText()[ind1], size);
 }

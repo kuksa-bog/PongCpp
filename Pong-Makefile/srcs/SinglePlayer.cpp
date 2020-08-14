@@ -124,6 +124,8 @@ void            SinglePlayer::MouseButtonDown(int i) {
         this->FirstPlayer.Init(RACKET_HEIGHT, RACKET_WIDTH, Vect(15, WINDOW_HEIGHT * 3 / 2 - (RACKET_HEIGHT / 2)), Vect(0, 0));
         getBot().Init(RACKET_HEIGHT, RACKET_WIDTH, Vect(WINDOW_WIDTH * 5 - 15 - RACKET_WIDTH, WINDOW_HEIGHT * 3 / 2 - (RACKET_HEIGHT / 2)), Vect(0, 0));
         getBot().SearchPlaceHard(getBall(), this->dTime / 4);
+        this->key[Key::Key1Up] = false;
+        this->key[Key::Key1Down] = false;
         this->key[Key::KeyEsc] = false;
     } else if (i == 3) {
         this->key[Key::KeyEsc] = false;

@@ -40,27 +40,27 @@ void          View::DrawAllText() {
 void    View::setPongInit(struct PongInit& pongInit) {
     setRenderer(pongInit.renderer);
     setIfExit(pongInit.ifExit);
-    this->PongInit.NumPathBalls = pongInit.NumPathBalls;
-    this->PongInit.NumPathBalls = pongInit.NumPathBalls;
-    this->PongInit.NumPathBackground = pongInit.NumPathBackground;
-    this->PongInit.NumPathLeftRacket = pongInit.NumPathLeftRacket;
-    this->PongInit.NumPathRightRacket = pongInit.NumPathRightRacket;
-    this->PongInit.ScoreMax = pongInit.ScoreMax;
-    this->PongInit.RacketSpeed = pongInit.RacketSpeed;
-    this->PongInit.MaxBallSpeed_x = pongInit.MaxBallSpeed_x;
-    this->PongInit.MaxBallSpeed_y = pongInit.MaxBallSpeed_y;
-};
+    this->_PongInit.NumPathBalls = pongInit.NumPathBalls;
+    this->_PongInit.NumPathBalls = pongInit.NumPathBalls;
+    this->_PongInit.NumPathBackground = pongInit.NumPathBackground;
+    this->_PongInit.NumPathLeftRacket = pongInit.NumPathLeftRacket;
+    this->_PongInit.NumPathRightRacket = pongInit.NumPathRightRacket;
+    this->_PongInit.ScoreMax = pongInit.ScoreMax;
+    this->_PongInit.RacketSpeed = pongInit.RacketSpeed;
+    this->_PongInit.MaxBallSpeed_x = pongInit.MaxBallSpeed_x;
+    this->_PongInit.MaxBallSpeed_y = pongInit.MaxBallSpeed_y;
+}
 
 void    View::updatePongInit(struct PongInit& pongInit) {
-    pongInit.renderer = this->PongInit.renderer;
+    pongInit.renderer = this->_PongInit.renderer;
     pongInit.ifExit = getIfExit();
-    pongInit.NumPathBalls = this->PongInit.NumPathBalls;
-    pongInit.NumPathBalls = this->PongInit.NumPathBalls;
-    pongInit.NumPathBackground = this->PongInit.NumPathBackground;
-    pongInit.NumPathLeftRacket = this->PongInit.NumPathLeftRacket;
-    pongInit.NumPathRightRacket = this->PongInit.NumPathRightRacket;
-    pongInit.ScoreMax = this->PongInit.ScoreMax;
-    pongInit.RacketSpeed = this->PongInit.RacketSpeed;
-    pongInit.MaxBallSpeed_x = this->PongInit.MaxBallSpeed_x;
-    pongInit.MaxBallSpeed_y = this->PongInit.MaxBallSpeed_y;
+    pongInit.NumPathBalls = this->_PongInit.NumPathBalls;
+    pongInit.NumPathBalls = this->_PongInit.NumPathBalls;
+    pongInit.NumPathBackground = this->_PongInit.NumPathBackground;
+    pongInit.NumPathLeftRacket = this->_PongInit.NumPathLeftRacket;
+    pongInit.NumPathRightRacket = this->_PongInit.NumPathRightRacket;
+    pongInit.ScoreMax = this->_PongInit.ScoreMax;
+    pongInit.RacketSpeed = this->_PongInit.RacketSpeed;
+    pongInit.MaxBallSpeed_x = this->_PongInit.MaxBallSpeed_x;
+    pongInit.MaxBallSpeed_y = this->_PongInit.MaxBallSpeed_y;
 }

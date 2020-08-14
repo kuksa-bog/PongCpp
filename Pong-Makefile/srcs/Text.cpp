@@ -2,6 +2,7 @@
 
 bool    Text::LoadText(SDL_Renderer* renderer, const string &message, SDL_Color color_txt, int size)
 {
+    cout << message << endl;
     TTF_Font *font = TTF_OpenFont("resources/font/DejaVuSansMono.ttf", size);
     if (font == nullptr){
         cout << "TTF_OpenFont! SDL_ttf Error: " << TTF_GetError() << endl;

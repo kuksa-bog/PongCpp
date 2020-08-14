@@ -42,13 +42,9 @@ SDL_ttf.h
 Object.hpp
 ../includes/Object.hpp
 
-/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Bot.cpp
-Object.hpp
-/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Object.hpp
-
-/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Multiplayer.cpp
+/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp
 Play.hpp
-/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Play.hpp
+/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Play.hpp
 
 /usr/local/include/SDL2/SDL.h
 SDL_main.h

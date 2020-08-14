@@ -42,19 +42,19 @@ public:
 
     void                    setPongInit(PongInit& pongInit);
 
-    void                    setIfExit(bool exit) { this->PongInit.ifExit = exit; };
+    void                    setIfExit(bool exit) { this->_PongInit.ifExit = exit; };
 
-    void                    setWindow(SDL_Window *window) { this->PongInit.window = window; };
+    void                    setWindow(SDL_Window *window) { this->_PongInit.window = window; };
 
-    void                    setRenderer(SDL_Renderer *renderer) { this->PongInit.renderer = renderer; };
+    void                    setRenderer(SDL_Renderer *renderer) { this->_PongInit.renderer = renderer; };
 
-    PongInit&               getPongInit() { return this->PongInit; };
+    PongInit&               getPongInit() { return this->_PongInit; };
 
-    bool                    getIfExit() { return this->PongInit.ifExit; };
+    bool                    getIfExit() { return this->_PongInit.ifExit; };
 
-    SDL_Window*             getWindow() { return this->PongInit.window; };
+    SDL_Window*             getWindow() { return this->_PongInit.window; };
 
-    SDL_Renderer*           getRenderer() { return  this->PongInit.renderer; };
+    SDL_Renderer*           getRenderer() { return  this->_PongInit.renderer; };
 
 private:
     virtual void            Init() {};
@@ -67,7 +67,7 @@ private:
 
     virtual void            Clean() {};
 
-    PongInit                PongInit;
+    PongInit                _PongInit;
     map<int, Text>          ObjectText;
     Texture                 Background;
     vector<string>          StringText;

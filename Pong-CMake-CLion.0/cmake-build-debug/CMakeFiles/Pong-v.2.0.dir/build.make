@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0
+CMAKE_SOURCE_DIR = /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Pong-v.2.0.dir/depend.make
@@ -59,159 +59,159 @@ include CMakeFiles/Pong-v.2.0.dir/flags.make
 
 CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o: ../srcs/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/main.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/main.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/main.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/main.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/main.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/main.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o: ../srcs/PongMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/PongMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/PongMenu.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/PongMenu.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/PongMenu.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/PongMenu.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/PongMenu.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/PongMenu.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o: ../srcs/Multiplayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Multiplayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Multiplayer.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Multiplayer.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Multiplayer.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Multiplayer.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Multiplayer.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Multiplayer.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o: ../srcs/SinglePlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/SinglePlayer.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/SinglePlayer.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o: ../srcs/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Object.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Object.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Object.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Object.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Object.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Object.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o: ../srcs/View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/View.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/View.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/View.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/View.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/View.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/View.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o: ../srcs/Ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Ball.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Ball.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Ball.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Ball.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Ball.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Ball.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o: ../srcs/Racket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Racket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Racket.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Racket.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Racket.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Racket.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Racket.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Racket.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o: ../srcs/Bot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Bot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Bot.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Bot.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Bot.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Bot.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Bot.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Bot.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o: ../srcs/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Text.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Text.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Text.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Text.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Text.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Text.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o: ../srcs/Tutorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Tutorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Tutorial.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Tutorial.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Tutorial.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Tutorial.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Tutorial.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.s
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o: CMakeFiles/Pong-v.2.0.dir/flags.make
 CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o: ../srcs/Settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o -c /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o -c /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Settings.cpp
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Settings.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Settings.cpp > CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.i
 
 CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/srcs/Settings.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/srcs/Settings.cpp -o CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.s
 
 # Object files for target Pong-v.2.0
 Pong__v_2_0_OBJECTS = \
@@ -245,7 +245,7 @@ Pong-v.2.0: CMakeFiles/Pong-v.2.0.dir/srcs/Tutorial.cpp.o
 Pong-v.2.0: CMakeFiles/Pong-v.2.0.dir/srcs/Settings.cpp.o
 Pong-v.2.0: CMakeFiles/Pong-v.2.0.dir/build.make
 Pong-v.2.0: CMakeFiles/Pong-v.2.0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Pong-v.2.0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Pong-v.2.0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pong-v.2.0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -258,6 +258,6 @@ CMakeFiles/Pong-v.2.0.dir/clean:
 .PHONY : CMakeFiles/Pong-v.2.0.dir/clean
 
 CMakeFiles/Pong-v.2.0.dir/depend:
-	cd /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0 /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0 /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug /Users/bogdankuksa/Desktop/Pong-bkuksa/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles/Pong-v.2.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0 /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0 /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug /Users/bogdankuksa/Desktop/test/Pong-CMake-CLion.0/cmake-build-debug/CMakeFiles/Pong-v.2.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Pong-v.2.0.dir/depend
 

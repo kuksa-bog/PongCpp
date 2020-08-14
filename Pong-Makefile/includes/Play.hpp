@@ -27,7 +27,7 @@ public:
 
     void            setPlayMenu(const vector<string> &v) { this->PlayMenu = v; };
 
-    Ball&           getBall() { return this->Ball; };
+    Ball&           getBall() { return this->_Ball; };
 
     bool                key[6] = {};
     Racket              FirstPlayer;
@@ -68,7 +68,7 @@ private:
     int                 InducedInscription;
     bool                XContinue;
     Racket              SecondPlayer;
-    Ball                Ball;
+    Ball                _Ball;
     map<int, Text>      ObjectWinner;
     map<int, Text>      ObjectPlayMenu;
     vector<string>      Winner;

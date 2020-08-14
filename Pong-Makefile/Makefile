@@ -10,7 +10,7 @@ SRC			:=	main.cpp PongMenu.cpp Multiplayer.cpp SinglePlayer.cpp \
 OBJ			:= $(addprefix $(OBJ_DIR)/,$(SRC:.cpp=.o))
 
 CXX			:= g++
-CXXFLAGS	:= -std=c++17 -Wall -pedantic
+CXXFLAGS	:= -std=c++17 -Wall -pedantic -Wno-deprecated
 LINKS       := -lSDL2 -lSDL2_mixer -lSDL2_ttf -lSDL2_image
 
 GREEN = \033[0;32m
